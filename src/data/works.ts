@@ -67,23 +67,28 @@ export const works: Work[] = [
     ],
   },
   {
-    slug: "lucent-skin-you-trust",
+    slug: "kirana-skin-you-trust",
     scene: "SC.03",
     title: "Skin You Trust",
-    client: "Lucent Skincare",
+    client: "Kirana Botanics — Yogyakarta",
     role: "Director / Post",
     year: "2025",
-    thumbnail: "/works/lucent/thumb.jpg",
+    // Aset digenerate via Higgsfield MCP (model soul_cinematic, grade teal/amber).
+    thumbnail:
+      "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_235223_81071719-4d31-4435-8dd5-e9274c29c453_min.webp",
     synopsis:
-      "Macro textures no practical lens could reach without touching the skin. We built the close-ups entirely in latent space, then graded them to sit seamlessly next to the practical brand footage around them.",
+      "A jamu-heritage serum built on temulawak, jasmine, and rice — so the film goes closer than any practical lens could without touching the skin. We built the macro textures entirely in latent space, then graded them to sit seamlessly next to the practical brand footage around them.",
     credits: [
       { label: "Director", value: "You" },
       { label: "Model", value: "Image + video diffusion" },
       { label: "Grade", value: "Matched to practical footage" },
       { label: "Runtime", value: "0:18" },
     ],
-    video: "/works/lucent/reel.mp4",
-    stills: ["/works/lucent/still-01.jpg"],
+    // reel utama menyusul (generate_video); halaman detail aman tanpa video
+    stills: [
+      "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_235225_82b812c5-3b74-4858-9f42-a0ebda1e05c8_min.webp",
+      "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_235226_7bc512ff-5bad-430f-95f5-fe6a8d6d2874_min.webp",
+    ],
   },
 ];
 
