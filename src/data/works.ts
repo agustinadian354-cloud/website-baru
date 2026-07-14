@@ -21,7 +21,10 @@ export const works: Work[] = [
     client: "Aether Watches",
     role: "Director / AI Generation",
     year: "2026",
-    thumbnail: "/works/aether/thumb.jpg",
+    // Aset digenerate via Higgsfield MCP (model soul_cinematic, grade teal/amber).
+    // URL CDN persisten; kalau ingin self-host, unduh ke /public/works/aether/.
+    thumbnail:
+      "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_233321_909176b6-3e91-40c1-83ca-beb377812802_min.webp",
     synopsis:
       "A watch that doesn't age with the season, so the film shouldn't either. We generated four climates inside one continuous take, cutting on movement instead of edits — treating the diffusion model like a crew that never breaks for weather.",
     credits: [
@@ -31,11 +34,11 @@ export const works: Work[] = [
       { label: "Grade", value: "Teal / amber, hand-tuned" },
       { label: "Runtime", value: "0:32" },
     ],
-    video: "/works/aether/reel.mp4",
+    // reel utama menyusul (generate_video); halaman detail aman tanpa video
     stills: [
-      "/works/aether/still-01.jpg",
-      "/works/aether/still-02.jpg",
-      "/works/aether/still-03.jpg",
+      "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_233324_2bb86fb0-5a16-4bbf-aea0-53fa363e9b71_min.webp",
+      "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_233327_f8e6d5a9-689b-4999-b0aa-674c359f6cba_min.webp",
+      "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_233329_dbbd3c6e-a2cb-4e6a-acee-66c525ac6023_min.webp",
     ],
   },
   {
