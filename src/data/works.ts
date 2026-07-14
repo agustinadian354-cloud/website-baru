@@ -42,15 +42,17 @@ export const works: Work[] = [
     ],
   },
   {
-    slug: "marrow-the-last-pour",
+    slug: "arunika-the-last-pour",
     scene: "SC.02",
     title: "The Last Pour",
-    client: "Marrow Coffee",
+    client: "Arunika Kopi — Jakarta",
     role: "Director / Prompt Design",
     year: "2025",
-    thumbnail: "/works/marrow/thumb.jpg",
+    // Aset digenerate via Higgsfield MCP (model soul_cinematic, grade teal/amber).
+    thumbnail:
+      "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_233835_59e01e8d-5954-4de0-bd9c-c0c960da8c03_min.webp",
     synopsis:
-      "A coffee ad shot like a heist film — the reveal is one continuous pour tracked through three rooms. Storyboarded frame-by-frame, then generated shot-for-shot to match the original animatic's timing.",
+      "An es kopi susu gula aren ad shot like a heist film — the reveal is one continuous pour of palm sugar syrup, tracked from a Javanese sugar workshop to a late-night warung kopi. Storyboarded frame-by-frame, then generated shot-for-shot to match the animatic's timing.",
     credits: [
       { label: "Director", value: "You" },
       { label: "Prompt design", value: "You" },
@@ -58,8 +60,11 @@ export const works: Work[] = [
       { label: "Sound design", value: "Collaborator" },
       { label: "Runtime", value: "0:24" },
     ],
-    video: "/works/marrow/reel.mp4",
-    stills: ["/works/marrow/still-01.jpg", "/works/marrow/still-02.jpg"],
+    // reel utama menyusul (generate_video); halaman detail aman tanpa video
+    stills: [
+      "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_233837_ee78e3b5-2a50-4e4a-8e60-4892b97390c4_min.webp",
+      "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_233840_b478411f-4468-42a5-9204-1ba5ad982c47_min.webp",
+    ],
   },
   {
     slug: "lucent-skin-you-trust",
