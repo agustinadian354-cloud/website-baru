@@ -35,7 +35,7 @@ export function Nav() {
       }`}
     >
       <Link to="/" className="font-display text-lg tracking-widest text-film">
-        REEL&nbsp;DIRECTOR
+        ADS&nbsp;BY&nbsp;DIAN
       </Link>
 
       <nav className="hidden items-center gap-8 text-film-dim sm:flex">

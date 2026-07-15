@@ -78,8 +78,9 @@ export function Hero() {
           transition={{ delay: 1.1, duration: 0.7, ease: EASE_OUT_EXPO }}
           className="max-w-md font-body text-film-dim sm:text-lg"
         >
-          I direct cinematic ad films generated frame by frame with AI —
-          same craft as set and lens, new camera.
+          Ads by Dian — cinematic AI ads director. Crafting ads that
+          convert, generated frame by frame: same craft as set and lens,
+          new camera.
         </motion.p>
 
         <motion.div

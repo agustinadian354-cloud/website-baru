@@ -29,7 +29,7 @@ export function HudOverlay() {
           <span className="text-film-dim">{tc}</span>
         </div>
         <div className="hidden text-right text-film-dim sm:block">
-          <div>AI-GEN // LATENT SYNTH</div>
+          <div>DIR — ADS BY DIAN</div>
           <div>24 FPS · 2.39:1</div>
         </div>
       </div>

@@ -28,8 +28,8 @@ export const works: Work[] = [
     synopsis:
       "A watch that doesn't age with the season, so the film shouldn't either. We generated four climates inside one continuous take, cutting on movement instead of edits — treating the diffusion model like a crew that never breaks for weather.",
     credits: [
-      { label: "Director", value: "You" },
-      { label: "Prompt design", value: "You" },
+      { label: "Director", value: "Ads by Dian" },
+      { label: "Prompt design", value: "Ads by Dian" },
       { label: "Model", value: "Custom LoRA + video diffusion" },
       { label: "Grade", value: "Teal / amber, hand-tuned" },
       { label: "Runtime", value: "0:32" },
@@ -54,8 +54,8 @@ export const works: Work[] = [
     synopsis:
       "An es kopi susu gula aren ad shot like a heist film — the reveal is one continuous pour of palm sugar syrup, tracked from a Javanese sugar workshop to a late-night warung kopi. Storyboarded frame-by-frame, then generated shot-for-shot to match the animatic's timing.",
     credits: [
-      { label: "Director", value: "You" },
-      { label: "Prompt design", value: "You" },
+      { label: "Director", value: "Ads by Dian" },
+      { label: "Prompt design", value: "Ads by Dian" },
       { label: "Model", value: "Video diffusion" },
       { label: "Sound design", value: "Collaborator" },
       { label: "Runtime", value: "0:03 loop" },
@@ -81,7 +81,7 @@ export const works: Work[] = [
     synopsis:
       "A jamu-heritage serum built on temulawak, jasmine, and rice — so the film goes closer than any practical lens could without touching the skin. We built the macro textures entirely in latent space, then graded them to sit seamlessly next to the practical brand footage around them.",
     credits: [
-      { label: "Director", value: "You" },
+      { label: "Director", value: "Ads by Dian" },
       { label: "Model", value: "Image + video diffusion" },
       { label: "Grade", value: "Matched to practical footage" },
       { label: "Runtime", value: "0:18" },

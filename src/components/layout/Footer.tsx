@@ -14,23 +14,39 @@ export function Footer() {
             <br />
             YOUR NEXT SPOT.
           </h2>
+          <p className="mt-4 max-w-md font-body text-sm text-film-dim">
+            Ads by Dian — cinematic AI ads director, crafting ads that
+            convert.
+          </p>
         </div>
 
         <div className="flex flex-col gap-2 font-mono text-sm text-film-dim">
           <a
-            href="mailto:hello@example.com"
+            href="mailto:adsbydian@gmail.com"
             className="transition-colors duration-150 hover:text-grade-amber-bright"
           >
-            hello@example.com
+            adsbydian@gmail.com
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/adsby.dian"
+            target="_blank"
+            rel="noreferrer"
             className="transition-colors duration-150 hover:text-grade-teal-bright"
           >
             Instagram
           </a>
           <a
-            href="#"
+            href="https://www.tiktok.com/@adsby.dian"
+            target="_blank"
+            rel="noreferrer"
+            className="transition-colors duration-150 hover:text-grade-teal-bright"
+          >
+            TikTok
+          </a>
+          <a
+            href="https://www.linkedin.com/in/adsby-dian-6489a541b/"
+            target="_blank"
+            rel="noreferrer"
             className="transition-colors duration-150 hover:text-grade-teal-bright"
           >
             LinkedIn
@@ -39,7 +55,7 @@ export function Footer() {
       </div>
 
       <p className="mt-16 font-mono text-xs text-film-dim/60">
-        © 2026 — built with React, Three.js &amp; Framer Motion.
+        © 2026 Ads by Dian — built with React, Three.js &amp; Framer Motion.
       </p>
     </footer>
   );

@@ -16,6 +16,7 @@ const process = [
 ];
 
 const capabilities = [
+  { label: "AI video ads", value: "Cinematic AI ad films, end-to-end" },
   { label: "Direction", value: "Concept, treatment, shot list" },
   { label: "Prompt engineering", value: "Model-specific, reproducible" },
   { label: "Color grade", value: "Diffusion output → broadcast-ready" },
@@ -36,7 +37,7 @@ export function Studio() {
         variants={fadeUp}
         className="mb-10 font-mono text-xs tracking-wider text-film-dim sm:mb-16"
       >
-        ( THE DIRECTOR )
+        ( THE DIRECTOR — ADS BY DIAN )
       </motion.p>
 
       <div className="grid gap-16 lg:grid-cols-[1.3fr_1fr] lg:gap-12">

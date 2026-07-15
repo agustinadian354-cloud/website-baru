@@ -1,4 +1,4 @@
-# Reel Director — cinematic AI ads director portfolio
+# Ads by Dian — cinematic AI ads director portfolio
 
 Stack: React + TypeScript + Vite, Tailwind CSS v4, Framer Motion, Three.js
 (via @react-three/fiber), React Router, Lenis untuk smooth scroll.
