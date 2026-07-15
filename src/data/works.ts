@@ -58,9 +58,11 @@ export const works: Work[] = [
       { label: "Prompt design", value: "You" },
       { label: "Model", value: "Video diffusion" },
       { label: "Sound design", value: "Collaborator" },
-      { label: "Runtime", value: "0:24" },
+      { label: "Runtime", value: "0:03 loop" },
     ],
-    // reel utama menyusul (generate_video); halaman detail aman tanpa video
+    // loop cinemagraph via Higgsfield MCP (kling3_0_turbo, image-to-video dari thumbnail)
+    video:
+      "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260715_005734_c29371d0-4723-43dc-899f-2b8c7332bae8.mp4",
     stills: [
       "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_233837_ee78e3b5-2a50-4e4a-8e60-4892b97390c4_min.webp",
       "https://d8j0ntlcm91z4.cloudfront.net/user_36avIXGX2r1x9xqEvTIgeJxLR0R/hf_20260714_233840_b478411f-4468-42a5-9204-1ba5ad982c47_min.webp",
